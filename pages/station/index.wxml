@@ -1,0 +1,8 @@
+<i-tabs current="{{ current }}" bindchange="handleChange">
+    <i-tab key="all" title="全部兼职"></i-tab>
+    <i-tab key="online" title="线上兼职"></i-tab>
+    <i-tab key="company" title="名企专区"></i-tab>
+</i-tabs>
+<!-- A.wxml -->
+<import src="./common/all/index/" />
+<template is="{{current}}" data="{{data: navbars[current]}}" />

@@ -1,0 +1,22 @@
+<template name="all">
+    <view>
+        <i-grid wx:for="{{data}}" wx:for-index="idx" wx:for-item="cols" wx:key="idx">
+            <i-grid-item wx:for="{{cols}}" wx:key="item">
+                <i-grid-icon>
+                    <i-icon type="activity" size="28" color="#80848f" />
+                </i-grid-icon>
+                <i-grid-label>{{item}}</i-grid-label>
+            </i-grid-item>
+        </i-grid>
+    </view>
+</template>
+<template name="online">
+    <view>
+        <text>线上兼职</text>
+    </view>
+</template>
+<template name="company">
+    <view>
+        <text>名企专区</text>
+    </view>
+</template>

@@ -1,0 +1,7 @@
+.container1 .g-item .i-grid-item {
+    border: none;
+}
+
+.container1 .g {
+    border: none;
+}
